@@ -1,0 +1,48 @@
+body{
+    background-color: olive;
+}
+
+.box{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 1rem;
+}
+.container{
+    /* display: flex; */
+}
+#box-2{
+    background-color: salmon;
+    position: static;
+    position: relative;
+    position: absolute;
+    position: fixed;
+    position: sticky;
+
+
+
+
+    top: 1rem;
+    /* top: 1rem; */
+    /* bottom: 1rem;
+    right: 3rem; */
+    /* right: 1rem; */
+    /* left: 3rem;
+    bottom: 1rem; */
+    /* z-index: -1; */
+
+
+}
+
+
+
+
+/*  5 Types of Positions
+    static
+    by defualt tlrb does not apply
+    relative
+    absolute
+    fixed
+    sticky
+
+*/

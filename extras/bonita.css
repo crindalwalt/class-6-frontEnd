@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: orange;
+    color: white;
+}
+/* #first{
+    padding: 1rem;
+    background-color: grey;
+} */
+
+
+
+.bon{
+    background-color: olive;
+    color: orange;
+}

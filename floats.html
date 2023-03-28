@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floats in Css</title>
+    <style>
+        /* Cancels all existing margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #navbar {
+            background-color: gainsboro;
+            padding: .5rem;
+        }
+
+        .navigation {
+            /* margin-bottom: 1rem; */
+        }
+
+        .navigation li {
+            display: inline-block;
+            /* margin-bottom: .4rem; */
+            font-size: larger;
+            font-weight: bold;
+            margin: .6rem;
+
+        }
+
+        .navigation li a {
+            text-decoration: none;
+            color: #333333;
+
+        }
+
+        .navbar-logo,
+        .navigation,
+        .searchbar,
+        .right {
+            display: inline-block;
+           
+        }
+
+        .navbar-logo {
+            /* padding: 1rem; */
+          
+        }
+
+        .navbar-logo img {
+            width: 40px;
+            height: 40px;
+            margin-top: .4rem;
+        }
+        .searchbar{
+            float: right;
+        }
+        .searchbar input {
+            padding: .5rem 1rem;
+            border-radius: .5rem;
+            border: none;
+            border: 2px solid #333333;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="navbar">
+        <div class="right">
+            <!-- Navbar logo -->
+            <div class="navbar-logo">
+                <img src="assets/icons/apple-logo.png" alt="">
+            </div>
+            <!-- Navigation bar -->
+            <ul class="navigation">
+                <li>
+                    <a href="https://shahzad.shop/admin">Home</a>
+                </li>
+                <li>
+                    <a href="https://shahzad.shop/admin">Services</a>
+                </li>
+                <li>
+                    <a href="https://shahzad.shop/admin">About</a>
+                </li>
+                <li>
+                    <a href="https://shahzad.shop/admin">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+        <div class="searchbar">
+            <input type="text" placeholder="search here">
+        </div>
+    </div>
+</body>
+
+</html>
