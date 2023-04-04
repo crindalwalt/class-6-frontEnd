@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psedu elements</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #box{
+            /* display: flex; */
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            position: relative;
+        }
+        button{
+            padding: 1rem 3rem;
+            background-color:green;
+            border-top-right-radius: .5rem;
+            border-bottom-left-radius: .5rem;
+            display: flex;
+            border: none;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            box-shadow: 3px 3px 10px gray;
+            cursor: pointer;
+            
+        }
+        button:hover{
+            background-color: #83a0bf;
+            border-top-right-radius: 0rem;
+            border-bottom-left-radius: 0rem;
+            border-top-left-radius: .5rem;
+            border-bottom-right-radius: .5rem;
+            color: black;
+        }
+        a:visited{
+            background-color: purple;
+        }
+        button:active{
+            padding: .5rem 2rem;
+            /* background-color: purple; */
+        }
+        #img{
+            width: 100%;
+            height:100vh;
+        }
+
+        .relative{
+            position: relative;
+        }
+        .absolute{
+            position: absolute;
+            top: 0rem;
+        }
+    </style>
+
+
+</head>
+<body>
+    <div id="box">
+
+        <!-- <button>Crindalwalt Inc.</button>
+        <a href="https://bagfest.net/about-us">Go to the World best website</a> -->
+        <img class="relative" id="img" src="https://source.unsplash.com/random/400x400" alt="image not laoding">
+        <h2 class="absolute">Hello Stranger</h2>
+    </div>
+</body>
+</html>
