@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Transition in Css</title>
+		<style>
+			* {
+				margin: 0px;
+				padding: 0px;
+				font-family: sans-serif;
+				/* box-sizing: border-box; */
+			}
+			.boox {
+				width: 100px;
+				height: 100px;
+				background-color: olive;
+				padding: 2rem;
+			}
+			.container {
+				width: 100%;
+				height: 100vh;
+				background-color: gainsboro;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			.dabba {
+				width: 100px;
+				height: 100px;
+				background-color: saddlebrown;
+				/* transition-property: all; */
+				/* transition-duration: 2s; */
+				/* transition-timing-function: ease; */
+				/* transition-delay: 5s; */
+
+				transition: all 2s ease-in;
+			}
+			.dabba:hover {
+				background-color: goldenrod;
+				/* border-radius: 50%; */
+				transform: skewY(30deg);
+                /* padding: 1rem; */
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="dabba">Shahzad</div>
+            <button>Click me</button>
+		</div>
+        <div class="container">
+			<div class="dabba">Shahzad</div>
+            <button>Click me</button>
+		</div>
+	</body>
+</html>
